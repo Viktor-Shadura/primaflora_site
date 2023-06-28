@@ -1,0 +1,50 @@
+/* RESET STYLES START */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+/* RESET STYLES START */
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  outline: 2px solid rgb(45, 135, 209);
+}
+
+.container {
+  /* brekpoint
+mobile - 480 px
+tablet - 768 px
+desktop - 1200 px */
+
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid red;
+}
